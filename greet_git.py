@@ -1,2 +1,2 @@
 import getpass
-print(f"Hello, {getpass.getuser()}")
+print(f"Greetings, {getpass.getuser()}")
