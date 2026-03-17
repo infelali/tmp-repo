@@ -20,7 +20,7 @@ jobs:
           pip install pylint
       - name: Run pylint
         run: |
-          pylint greet_git.py --disable=C0144,C0116,W0612
+          pylint greet_git.py --disable=C0114,C0116,W0612
       - name: Run greet script
         run: |
           python greet_git.py
